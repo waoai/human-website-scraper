@@ -16,20 +16,22 @@ WorkAround Job Scraper CLI Utility
 
 # Features
    
-  1. 
-
 # Dependencies
 
 # Usage details 
-   '''shell
+   '''
    
-    a@a workaroundaround-job-scraper login <PROVIDE .txt file with API key> 
+    $ workaroundaround-job-scraper login <PROVIDE .txt file with API key> 
     
     # Successfully Logged in! 
     OR 
     # Key not recognized... 
-    workaround-job-scraper scrape urls.txt <provide -n flag for enabling notification when task is complete> 
-    #Our workers have strated scraping for you! Run workaround-job-scraper status to see job status    
-   workaround-job-scraper submit urls.txt -d    
+    $ workaround-job-scraper scrape urls.txt <provide -n flag for enabling notification when task is complete> 
+    
+    # Our workers have strated scraping for you! Run workaround-job-scraper status to see job status and download to a file   
+    
+    $ workaround-job-scraper status 
+    
+    # <NUMBER>% of URLs scraped! Results written to an output file
   '''
    
