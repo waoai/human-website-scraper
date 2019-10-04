@@ -5,20 +5,20 @@ and a description for what they want scraped. Then, that job gets sent to our wo
 Depending on the number of URLs, the amount of time spent on a request can vary from 10 minutes to 12 hours. 
 When the URLs are all resolved the results from the different jobs will be stored in the given .txt or .csv file.
 
-# Design Goals 
+## Design Goals 
 
 1. Users should be able to use the CLI to easily get results from the WorkAround platform
 2. Simple commands 
 3. Runs quickly and smoothly 
   
 
-# Features
+## Features
 
 * Upload any number of urls and extract any information from the page
 * Extract using human-readable descriptions of the content
 * Extract as many fields per page as needed
 
-# Basic Usage 
+## Basic Usage 
 
 ```
 $ workaroundaround-job-scraper login
@@ -64,7 +64,7 @@ What is the price of the 1BR aparmtnet?
 What is the price of the 2BR aparmtnet?
 ```
 
-# Commands
+## Commands
 
 | Command                         | Description                         |
 | ------------------------------- | ----------------------------------- |
